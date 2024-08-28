@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NLP Django Web Project</title>
+    <link rel="stylesheet" href="apps/static/apps/style.css"> <!-- Update with the correct path to your CSS file -->
+</head>
+<body>
+    {% extends "apps/layout.html" %}
+
+    {% block body %}
+
+    <section class="introduction">
+        <h1 class="heading" style="color: #3498db;">NLP Django Web Project</h1> <!-- Blue Heading -->
+        <p style="color: #000;">Prepared for / Dr. Samia M. Abd-Alhalem</p> <!-- Black text -->
+    </section>
+
+    <!-- <section class="developer-info">
+        <h1 class="heading" style="color: #3498db;">Developer</h1> 
+        <p style="color: #000;">Mahmoud Osama</p> Black text
+    </section> 
+    -->
+
+    <section class="team-members">
+        <h1 class="heading" style="color: #3498db;">Team Members</h1> <!-- Blue Heading -->
+        <ul style="color: #000;"> <!-- Black text -->
+            <li>Mahmoud Osama 4221021</li>
+            <li>Omar Amgad 4221052</li>
+            <li>Mahmoud Arafa 4221008</li>
+            <li>Maryam Hassan 4221094</li>
+            <li>Alaa Yousef 4221366</li>
+            <li>Nour El-Din Ayman 4221284</li>
+            <li>Monira Ashraf 4221329</li>
+            <li>Engy Hossam 4221055</li>
+        </ul>
+    </section>
+
+    <footer class="content-footer">
+        <p class="body-copy" style="color: #ecf0f1;">Say hi to me on these social networks:</p> <!-- Light grey text -->
+        <ul class="social">
+            <li><a href="https://github.com/fangyiyu" target="_blank" style="color: #3498db;">Github</a></li> <!-- Blue link -->
+            <li><a href="https://www.linkedin.com/in/fangyiyu/" target="_blank" style="color: #3498db;">LinkedIn</a></li> <!-- Blue link -->
+            <li><a href="mailto:yufangyi1@gmail.com" target="_blank" style="color: #3498db;">Gmail</a></li> <!-- Blue link -->
+        </ul>
+    </footer>
+
+    {% endblock %}
+</body>
+</html>
